@@ -19,13 +19,13 @@ class Person {
 }
 
 class Student extends Person {
-	study:function(){
+	study(){
 		console.log(this.name+" is studying");
 	}
 }
 
 class Teacher extends Person {
-	tech:function(){
+	teach(){
 		console.log(this.name+" is teaching");
 	}
 }
